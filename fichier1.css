@@ -11,3 +11,9 @@ p
 font-style: italic
 font-size: large;
 }
+h2
+{
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+}
