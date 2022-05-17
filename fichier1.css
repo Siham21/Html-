@@ -1,19 +1,54 @@
+/* on travail sur la balise body donc toute la page  */
+body 
+{
+/*background-image: url("asset/beachpng.png");   pour insérer une image en fond d'ecran*/
+background-color: rosybrown;/*le fond de la page prend la couleur souhiaté*/
+/*color: beige; le text de la page sera de la couleur choisit"*/
+opacity: 1;/*permet de rentre opaque ou trasparent le text*/
+background-attachment: fixed;/*pour que l'image soit fixer et ne bouge pas avec le défilement*/
+background-position: bottom;/*pour placer l'image, centre en haut en bas*/
+}
+
+
+
+
+
 p
 {
     font-size: 1.3em;
     color: blueviolet; 
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    text-align: justify ;
 }
 .intro 
 {
-font-style: italic
-font-size: large;
+    font-style: italic;
+    font-size: large;
+    text-decoration: underline;
+
 }
-h2
+
+h2+p
 {
-    font-size: small;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    ;
+    font-size:small;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cadetblue;
+    
+}
+h1
+{
+    text-align: center; /*pour aligner le texte*/
+    border: 3px plum solid;/*pour ajouter une bordure de couleur*/
+    border-radius: 20px;/*pour arrondir la bordure*/
+    box-shadow: 6px 6px 10px plum;/*pour avoir un effet ombré avec une couleur*/
+    text-shadow: 6px 6px 6px black;/* pour avoir un effet ombré du text*/
+    
+}
+/* l'image flottante sert a mettre l'image prêt du test  */
+.imageflottante
+
+{
+    float: left;
+    
 }
